@@ -1,0 +1,39 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "A ToDoList Task",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test": "jest --watchAll"
+  },
+  "author": "sathish",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.25.3",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "0.28.4",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
+    "jest": "^20.0.4",
+    "react": "^16.3.3",
+    "react-dom": "16.3.3",
+    "react-test-renderer": "^16.0.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "validator": "8.0.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^2.11.3"
+  }
+}

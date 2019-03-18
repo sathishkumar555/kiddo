@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render About correctly 1`] = `
+<Unknown>
+  <div>
+    This is the test environment
+  </div>
+</Unknown>
+`;
